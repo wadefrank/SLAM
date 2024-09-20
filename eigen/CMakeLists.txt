@@ -13,5 +13,5 @@ find_package(Eigen3 3.3 REQUIRED)
 message(STATUS "Eigen include directory: ${EIGEN3_INCLUDE_DIR}")
 include_directories(${EIGEN3_INCLUDE_DIR})
 
-add_executable(useEigen src/useEigen.cpp)
-target_link_libraries(useEigen)
+add_executable(useEigenDense src/useEigenDense.cpp)
+add_executable(useEigenGeometry src/useEigenGeometry.cpp)

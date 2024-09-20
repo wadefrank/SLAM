@@ -31,8 +31,10 @@ int main(int argc, char **argv)
     std::cout << matrix_22d << std::endl;
 
     // 访问矩阵中元素
-    for (int i = 0; i < 2; i++){
-        for (int j = 0; j < 2; j++){
+    for (int i = 0; i < 2; i++)
+    {
+        for (int j = 0; j < 2; j++)
+        {
             std::cout << matrix_22d(i, j) << " ";
         }
         std::cout << std::endl;
