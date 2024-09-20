@@ -29,7 +29,7 @@ make install
   - 矩阵分解（LU、QR 等）
 - 使用场景：最常见的头文件，如果你需要 Eigen 的通用功能，可以直接包含这个文件。
 
-## Eigen/Core
+### Eigen/Core
 ```C++
 #include <Eigen/Core>
 ```
